@@ -1,0 +1,2622 @@
+[
+  {
+    "tool": [
+      {
+        "id": "6722ceae-5d5b-4b75-97db-348ee220859f",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": false,
+        "rental_price": 79124,
+        "created_at": "2023-08-22T04:45:29.044Z",
+        "updated_at": "2023-08-21T12:56:06.408Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "742cd4c7-e76b-4a1b-b8dd-82025b790b9b",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "availability": true,
+        "rental_price": 91677,
+        "created_at": "2023-08-21T15:39:50.450Z",
+        "updated_at": "2023-08-22T04:42:28.064Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "969b9ede-f8e5-4582-956a-b28b2ea27ff4",
+        "name": "Wrench",
+        "description": "Perfect for plumbing repairs",
+        "availability": true,
+        "rental_price": 51008,
+        "created_at": "2023-08-21T21:43:51.814Z",
+        "updated_at": "2023-08-21T07:46:50.969Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "51cb96db-b23a-4537-aad6-4123513a07fa",
+        "name": "Drill",
+        "description": "Efficient for drilling holes",
+        "availability": false,
+        "rental_price": 53702,
+        "created_at": "2023-08-21T18:15:19.350Z",
+        "updated_at": "2023-08-22T03:25:50.091Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d52d049a-297b-4d05-ba54-8bac95dcf0f9",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "availability": true,
+        "rental_price": 93893,
+        "created_at": "2023-08-21T10:37:47.375Z",
+        "updated_at": "2023-08-22T04:28:04.591Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "f2859666-ed37-4d09-97cc-e7ab54d48751",
+        "rental_start_date": "2023-08-21T09:26:00.148Z",
+        "rental_end_date": "2023-08-21T16:57:49.888Z",
+        "created_at": "2023-08-21T07:50:51.889Z",
+        "updated_at": "2023-08-21T17:48:05.105Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "51cb96db-b23a-4537-aad6-4123513a07fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e69e768b-f4be-4ea9-8b04-33aadbf78d08",
+        "rental_start_date": "2023-08-22T00:02:54.588Z",
+        "rental_end_date": "2023-08-21T06:59:35.077Z",
+        "created_at": "2023-08-21T12:23:36.526Z",
+        "updated_at": "2023-08-21T23:14:28.446Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "d52d049a-297b-4d05-ba54-8bac95dcf0f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e25a541b-0df9-4711-945a-bbbcbdb41902",
+        "rental_start_date": "2023-08-22T03:14:33.719Z",
+        "rental_end_date": "2023-08-21T10:04:45.085Z",
+        "created_at": "2023-08-21T19:00:12.884Z",
+        "updated_at": "2023-08-22T02:15:03.449Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "51cb96db-b23a-4537-aad6-4123513a07fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2a7b3f9-3292-4f5d-82e5-6c2e11495e1e",
+        "rental_start_date": "2023-08-21T13:29:37.834Z",
+        "rental_end_date": "2023-08-21T22:54:54.132Z",
+        "created_at": "2023-08-21T17:15:29.715Z",
+        "updated_at": "2023-08-22T00:16:08.465Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "d52d049a-297b-4d05-ba54-8bac95dcf0f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a9b51f8-c0f6-47a4-a03d-fed3d6f2d59c",
+        "rental_start_date": "2023-08-22T00:02:25.136Z",
+        "rental_end_date": "2023-08-21T18:09:54.638Z",
+        "created_at": "2023-08-21T07:21:35.568Z",
+        "updated_at": "2023-08-21T10:22:23.741Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "6722ceae-5d5b-4b75-97db-348ee220859f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "34590e6e-ee8b-49a4-8b08-ad653e7efcaf",
+        "rental_start_date": "2023-08-21T09:38:24.431Z",
+        "rental_end_date": "2023-08-21T14:00:27.669Z",
+        "total_price": 28943,
+        "created_at": "2023-08-21T09:22:59.863Z",
+        "updated_at": "2023-08-22T02:58:19.090Z",
+        "customer_id": "d2a7b3f9-3292-4f5d-82e5-6c2e11495e1e",
+        "tool_id": "6722ceae-5d5b-4b75-97db-348ee220859f"
+      },
+      {
+        "id": "a51a27d1-6574-4229-8bd2-a11ba33d5dcb",
+        "rental_start_date": "2023-08-21T05:26:08.284Z",
+        "rental_end_date": "2023-08-21T06:58:58.385Z",
+        "total_price": 48468,
+        "created_at": "2023-08-21T07:02:32.621Z",
+        "updated_at": "2023-08-21T13:38:43.238Z",
+        "customer_id": "f2859666-ed37-4d09-97cc-e7ab54d48751",
+        "tool_id": "51cb96db-b23a-4537-aad6-4123513a07fa"
+      },
+      {
+        "id": "73c5d0a9-7a8d-476a-8efb-c5f6a150ca73",
+        "rental_start_date": "2023-08-22T00:55:39.991Z",
+        "rental_end_date": "2023-08-21T15:00:11.635Z",
+        "total_price": 69043,
+        "created_at": "2023-08-22T02:23:06.830Z",
+        "updated_at": "2023-08-21T07:38:19.939Z",
+        "customer_id": "6a9b51f8-c0f6-47a4-a03d-fed3d6f2d59c",
+        "tool_id": "742cd4c7-e76b-4a1b-b8dd-82025b790b9b"
+      },
+      {
+        "id": "d098c2d9-a518-4df2-933d-3f5b38322db0",
+        "rental_start_date": "2023-08-22T03:09:18.042Z",
+        "rental_end_date": "2023-08-22T02:20:31.155Z",
+        "total_price": 15856,
+        "created_at": "2023-08-21T22:05:35.358Z",
+        "updated_at": "2023-08-22T01:10:43.526Z",
+        "customer_id": "6a9b51f8-c0f6-47a4-a03d-fed3d6f2d59c",
+        "tool_id": "969b9ede-f8e5-4582-956a-b28b2ea27ff4"
+      },
+      {
+        "id": "e544736b-2e9d-416e-a9e8-357be719621f",
+        "rental_start_date": "2023-08-21T22:14:10.450Z",
+        "rental_end_date": "2023-08-21T16:09:14.503Z",
+        "total_price": 53885,
+        "created_at": "2023-08-22T03:39:27.062Z",
+        "updated_at": "2023-08-21T15:35:06.540Z",
+        "customer_id": "e25a541b-0df9-4711-945a-bbbcbdb41902",
+        "tool_id": "6722ceae-5d5b-4b75-97db-348ee220859f"
+      }
+    ],
+    "admin": [
+      {
+        "id": "79066c8d-b7b5-45f9-b7b5-78f31a4450b9",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T23:07:02.642Z",
+        "updated_at": "2023-08-21T20:40:22.510Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1908f894-74db-4cf8-9170-aaf936bcfe97",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-22T04:49:53.715Z",
+        "updated_at": "2023-08-21T05:09:56.129Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62683aa9-5f41-4b28-8607-564b72bd16d1",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-22T00:36:41.712Z",
+        "updated_at": "2023-08-22T03:39:03.572Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "987266e2-797a-41e4-95c6-71037ffb39dc",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-22T00:03:50.791Z",
+        "updated_at": "2023-08-22T02:08:07.998Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc638863-f77e-45d3-a690-b1c5445c21f6",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T07:21:04.076Z",
+        "updated_at": "2023-08-22T00:52:48.861Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "394dff38-7af9-405a-ac6c-db3ee7be347f",
+        "email": "Reinhold_Terry@gmail.com",
+        "firstName": "Freeda",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41850824",
+        "tenantId": null
+      },
+      {
+        "reference": "9b05c0a3-9392-4009-8e8d-e9f6b449ff84",
+        "email": "Brice95@hotmail.com",
+        "firstName": "Fernando",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20203072",
+        "tenantId": null
+      },
+      {
+        "reference": "93537d5c-de14-4bb7-9ba2-208f39343708",
+        "email": "Duncan.Corkery@hotmail.com",
+        "firstName": "Llewellyn",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98333091",
+        "tenantId": null
+      },
+      {
+        "reference": "b2931c1a-e402-4b60-91fe-77ff0f4977aa",
+        "email": "Shyann_Bartoletti@yahoo.com",
+        "firstName": "Emilie",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/744.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e58b87cc-1c76-40e2-8f5f-2e4a08543a35",
+        "email": "Aurelio.Zboncak@yahoo.com",
+        "firstName": "Merlin",
+        "lastName": "Brekke-Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/713.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "15039fcf-3532-407f-b9bc-35bf067f30a2",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": false,
+        "rental_price": 37438,
+        "created_at": "2023-08-21T15:16:14.507Z",
+        "updated_at": "2023-08-22T04:59:33.129Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "89fe1264-4268-4975-b3b9-4eb49ea00e16",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "availability": true,
+        "rental_price": 94481,
+        "created_at": "2023-08-21T21:33:34.550Z",
+        "updated_at": "2023-08-22T05:01:34.485Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "927959e1-643a-4ab9-8390-9684840ed065",
+        "name": "Wrench",
+        "description": "Used for gripping and turning objects",
+        "availability": true,
+        "rental_price": 45535,
+        "created_at": "2023-08-21T11:22:16.452Z",
+        "updated_at": "2023-08-21T14:24:24.218Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4b217460-e19f-49ac-8710-a4eda67651d7",
+        "name": "Drill",
+        "description": "For drilling holes in different materials",
+        "availability": true,
+        "rental_price": 9589,
+        "created_at": "2023-08-21T13:44:11.104Z",
+        "updated_at": "2023-08-22T00:55:00.411Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "678b9991-31c0-47eb-8702-e50d2dcb6a51",
+        "name": "Pliers",
+        "description": "Used for holding and manipulating objects",
+        "availability": true,
+        "rental_price": 65737,
+        "created_at": "2023-08-22T02:49:09.365Z",
+        "updated_at": "2023-08-21T07:56:46.822Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "7d353fbb-23fb-4064-bda3-2c8cf326b15a",
+        "rental_start_date": "2023-08-22T00:25:23.019Z",
+        "rental_end_date": "2023-08-21T13:39:56.897Z",
+        "created_at": "2023-08-21T15:47:52.621Z",
+        "updated_at": "2023-08-21T07:47:30.690Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "4b217460-e19f-49ac-8710-a4eda67651d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b831205a-ba3b-4e97-8869-725f8da5eda5",
+        "rental_start_date": "2023-08-21T12:53:29.410Z",
+        "rental_end_date": "2023-08-21T19:16:28.397Z",
+        "created_at": "2023-08-21T12:23:13.959Z",
+        "updated_at": "2023-08-22T02:52:23.885Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "89fe1264-4268-4975-b3b9-4eb49ea00e16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad6ddf75-240a-4fef-a4e7-8c3632d980f3",
+        "rental_start_date": "2023-08-21T11:54:53.142Z",
+        "rental_end_date": "2023-08-21T16:44:32.472Z",
+        "created_at": "2023-08-21T18:03:07.282Z",
+        "updated_at": "2023-08-21T21:43:14.960Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "927959e1-643a-4ab9-8390-9684840ed065",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b08a7aad-d6ed-4337-a6cd-bd5837288cde",
+        "rental_start_date": "2023-08-21T13:31:58.020Z",
+        "rental_end_date": "2023-08-21T10:01:11.082Z",
+        "created_at": "2023-08-21T12:33:07.792Z",
+        "updated_at": "2023-08-21T20:42:14.940Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "927959e1-643a-4ab9-8390-9684840ed065",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6094f7a6-5590-439c-b9bd-0df03c31b89b",
+        "rental_start_date": "2023-08-21T12:07:15.668Z",
+        "rental_end_date": "2023-08-21T11:57:51.204Z",
+        "created_at": "2023-08-21T14:35:53.718Z",
+        "updated_at": "2023-08-21T11:03:58.253Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "89fe1264-4268-4975-b3b9-4eb49ea00e16",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "b1b34181-0929-49c4-8047-0dc342ba9e41",
+        "rental_start_date": "2023-08-21T14:56:46.437Z",
+        "rental_end_date": "2023-08-22T01:46:04.569Z",
+        "total_price": 50886,
+        "created_at": "2023-08-21T11:00:52.366Z",
+        "updated_at": "2023-08-21T16:20:14.693Z",
+        "customer_id": "b08a7aad-d6ed-4337-a6cd-bd5837288cde",
+        "tool_id": "678b9991-31c0-47eb-8702-e50d2dcb6a51"
+      },
+      {
+        "id": "011c0bd7-58ed-4026-afd6-579b8aed4f4b",
+        "rental_start_date": "2023-08-21T09:36:30.265Z",
+        "rental_end_date": "2023-08-21T05:30:51.942Z",
+        "total_price": 3702,
+        "created_at": "2023-08-22T03:34:49.551Z",
+        "updated_at": "2023-08-21T05:49:06.644Z",
+        "customer_id": "6094f7a6-5590-439c-b9bd-0df03c31b89b",
+        "tool_id": "4b217460-e19f-49ac-8710-a4eda67651d7"
+      },
+      {
+        "id": "00dafe16-45c3-45b7-b765-99a4d82202af",
+        "rental_start_date": "2023-08-21T12:21:13.693Z",
+        "rental_end_date": "2023-08-21T05:07:31.718Z",
+        "total_price": 71726,
+        "created_at": "2023-08-21T22:50:23.308Z",
+        "updated_at": "2023-08-22T01:15:00.997Z",
+        "customer_id": "b08a7aad-d6ed-4337-a6cd-bd5837288cde",
+        "tool_id": "927959e1-643a-4ab9-8390-9684840ed065"
+      },
+      {
+        "id": "efaab68d-cb8d-4bf8-be49-18fb10572514",
+        "rental_start_date": "2023-08-21T14:16:20.473Z",
+        "rental_end_date": "2023-08-22T01:56:23.398Z",
+        "total_price": 75457,
+        "created_at": "2023-08-21T15:31:26.375Z",
+        "updated_at": "2023-08-21T20:27:26.749Z",
+        "customer_id": "6094f7a6-5590-439c-b9bd-0df03c31b89b",
+        "tool_id": "927959e1-643a-4ab9-8390-9684840ed065"
+      },
+      {
+        "id": "0eac034e-aae7-4c4a-a384-0955ce0afe69",
+        "rental_start_date": "2023-08-21T08:25:24.392Z",
+        "rental_end_date": "2023-08-21T09:09:34.812Z",
+        "total_price": 62612,
+        "created_at": "2023-08-21T18:37:04.322Z",
+        "updated_at": "2023-08-22T03:51:58.950Z",
+        "customer_id": "6094f7a6-5590-439c-b9bd-0df03c31b89b",
+        "tool_id": "89fe1264-4268-4975-b3b9-4eb49ea00e16"
+      }
+    ],
+    "admin": [
+      {
+        "id": "34adfc06-537a-428b-9191-01418db795f5",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T05:36:44.731Z",
+        "updated_at": "2023-08-21T18:13:00.612Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc77466e-4c79-4ec2-b691-b36c4574ed0b",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T14:30:18.332Z",
+        "updated_at": "2023-08-21T06:13:16.927Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74d003cc-af16-4086-b1ae-771ebb3af726",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T21:33:53.965Z",
+        "updated_at": "2023-08-21T22:47:17.556Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "534088dd-d6ae-4ee0-ae40-88cc28dee4bb",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T06:04:44.090Z",
+        "updated_at": "2023-08-21T09:01:35.473Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45f22596-2419-4ee4-9f17-38de338024f5",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T12:42:21.120Z",
+        "updated_at": "2023-08-22T05:02:38.068Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19556d9a-49ca-4924-89a7-e03913cfebf2",
+        "email": "Gerry44@gmail.com",
+        "firstName": "Tom",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1012.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b5343cd2-2652-4ca8-b10f-68a33edcad43",
+        "email": "Name.Mayer@gmail.com",
+        "firstName": "Elmore",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/728.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "843c452b-a60a-4034-aee9-452b8819990f",
+        "email": "Candace_Weber89@gmail.com",
+        "firstName": "Lelah",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87665767",
+        "tenantId": null
+      },
+      {
+        "reference": "d3e631a2-721d-46f1-868b-097337e80880",
+        "email": "Marvin10@gmail.com",
+        "firstName": "Kieran",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/998.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f89ebbde-8017-4a0d-a931-e22c1684263d",
+        "email": "Christian27@yahoo.com",
+        "firstName": "Prince",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1162.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "3dd26877-050b-49a0-baa2-1a55ed87885f",
+        "name": "CodeMaster",
+        "description": "A powerful IDE for developers",
+        "availability": false,
+        "rental_price": 53319,
+        "created_at": "2023-08-21T08:53:58.321Z",
+        "updated_at": "2023-08-21T15:58:59.983Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "198be06e-9c5c-495c-b6e2-2ef6ab200dfe",
+        "name": "TechWizard",
+        "description": "Cutting-edge software for businesses",
+        "availability": false,
+        "rental_price": 85233,
+        "created_at": "2023-08-21T18:12:20.633Z",
+        "updated_at": "2023-08-22T01:35:43.600Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "486ff48b-b269-4f6f-a0a1-5aef72035160",
+        "name": "InnovateX",
+        "description": "Revolutionary tool for designers",
+        "availability": true,
+        "rental_price": 83252,
+        "created_at": "2023-08-21T11:46:38.409Z",
+        "updated_at": "2023-08-22T03:59:24.686Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95418562-8285-4f20-a493-dd16343a9ab6",
+        "name": "ProTool",
+        "description": "Efficient project management software",
+        "availability": false,
+        "rental_price": 83680,
+        "created_at": "2023-08-21T13:00:08.962Z",
+        "updated_at": "2023-08-21T13:36:06.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "20ef9660-8367-4230-8749-23b1fa32d074",
+        "name": "SmartCode",
+        "description": "Intuitive tool for data analysis",
+        "availability": true,
+        "rental_price": 61716,
+        "created_at": "2023-08-22T05:00:12.500Z",
+        "updated_at": "2023-08-21T05:11:48.211Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "948308ae-97f7-4414-877a-bad22622bd05",
+        "rental_start_date": "2023-08-21T05:18:50.172Z",
+        "rental_end_date": "2023-08-22T03:08:36.359Z",
+        "created_at": "2023-08-22T03:05:16.353Z",
+        "updated_at": "2023-08-21T23:28:04.754Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "198be06e-9c5c-495c-b6e2-2ef6ab200dfe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "655603d3-9747-4c7d-a5f5-5776b7c1ccc7",
+        "rental_start_date": "2023-08-21T09:25:31.463Z",
+        "rental_end_date": "2023-08-22T03:22:57.976Z",
+        "created_at": "2023-08-21T13:36:54.196Z",
+        "updated_at": "2023-08-21T13:50:50.334Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "486ff48b-b269-4f6f-a0a1-5aef72035160",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc44969f-899e-443c-ad3b-73e9afe659dc",
+        "rental_start_date": "2023-08-22T02:51:14.468Z",
+        "rental_end_date": "2023-08-21T23:48:12.221Z",
+        "created_at": "2023-08-21T10:03:23.839Z",
+        "updated_at": "2023-08-21T21:56:13.711Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "3dd26877-050b-49a0-baa2-1a55ed87885f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c97a0145-3b0b-4ed6-9cfe-4ee66e14b8d7",
+        "rental_start_date": "2023-08-21T05:09:02.225Z",
+        "rental_end_date": "2023-08-21T16:45:38.648Z",
+        "created_at": "2023-08-21T18:16:58.620Z",
+        "updated_at": "2023-08-21T07:55:52.258Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "95418562-8285-4f20-a493-dd16343a9ab6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60bcfac1-367d-4b3c-b632-0f789b031377",
+        "rental_start_date": "2023-08-22T01:53:57.582Z",
+        "rental_end_date": "2023-08-21T15:37:03.184Z",
+        "created_at": "2023-08-21T19:59:03.121Z",
+        "updated_at": "2023-08-22T03:26:01.932Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "95418562-8285-4f20-a493-dd16343a9ab6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "767b34f4-cca2-4d7a-8bc3-8901ac8323a1",
+        "rental_start_date": "2023-08-21T05:49:33.276Z",
+        "rental_end_date": "2023-08-22T01:37:15.913Z",
+        "total_price": 24731,
+        "created_at": "2023-08-22T03:20:27.110Z",
+        "updated_at": "2023-08-22T00:34:04.961Z",
+        "customer_id": "60bcfac1-367d-4b3c-b632-0f789b031377",
+        "tool_id": "3dd26877-050b-49a0-baa2-1a55ed87885f"
+      },
+      {
+        "id": "8bad8a4b-6044-4c6d-bd94-db53063958f8",
+        "rental_start_date": "2023-08-21T15:16:00.724Z",
+        "rental_end_date": "2023-08-21T19:20:03.691Z",
+        "total_price": 77964,
+        "created_at": "2023-08-21T16:16:35.046Z",
+        "updated_at": "2023-08-21T19:05:03.001Z",
+        "customer_id": "60bcfac1-367d-4b3c-b632-0f789b031377",
+        "tool_id": "3dd26877-050b-49a0-baa2-1a55ed87885f"
+      },
+      {
+        "id": "64ef5254-7960-4c1c-9f49-43896918c04b",
+        "rental_start_date": "2023-08-21T15:21:33.506Z",
+        "rental_end_date": "2023-08-21T06:48:16.584Z",
+        "total_price": 55448,
+        "created_at": "2023-08-22T01:53:27.782Z",
+        "updated_at": "2023-08-21T09:23:11.386Z",
+        "customer_id": "bc44969f-899e-443c-ad3b-73e9afe659dc",
+        "tool_id": "3dd26877-050b-49a0-baa2-1a55ed87885f"
+      },
+      {
+        "id": "786bbc03-446f-489c-be37-90f4d46dda2a",
+        "rental_start_date": "2023-08-21T18:47:57.909Z",
+        "rental_end_date": "2023-08-21T21:55:08.327Z",
+        "total_price": 1368,
+        "created_at": "2023-08-21T16:52:43.146Z",
+        "updated_at": "2023-08-22T03:56:36.311Z",
+        "customer_id": "c97a0145-3b0b-4ed6-9cfe-4ee66e14b8d7",
+        "tool_id": "95418562-8285-4f20-a493-dd16343a9ab6"
+      },
+      {
+        "id": "105d43d5-e799-4e82-bda4-6fee14972ba8",
+        "rental_start_date": "2023-08-21T06:38:45.674Z",
+        "rental_end_date": "2023-08-21T11:35:43.597Z",
+        "total_price": 35867,
+        "created_at": "2023-08-22T04:07:49.111Z",
+        "updated_at": "2023-08-21T23:29:27.424Z",
+        "customer_id": "60bcfac1-367d-4b3c-b632-0f789b031377",
+        "tool_id": "95418562-8285-4f20-a493-dd16343a9ab6"
+      }
+    ],
+    "admin": [
+      {
+        "id": "2c886289-85d3-45f5-b3d8-056cc5decca3",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T19:14:16.868Z",
+        "updated_at": "2023-08-21T10:50:44.347Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb3fd9cd-b855-4c4c-bae8-981388bc6e7e",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T10:54:29.178Z",
+        "updated_at": "2023-08-21T20:13:36.170Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ed504c1-bcbe-4fb6-a989-9687737c71f9",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T15:38:07.247Z",
+        "updated_at": "2023-08-22T01:12:31.217Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8855b3a1-3de8-4e45-a3fc-fbdef83cb212",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-22T01:00:20.268Z",
+        "updated_at": "2023-08-21T18:06:30.938Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6ff4778-2e87-4154-981e-8fd59b9e2068",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T08:02:56.180Z",
+        "updated_at": "2023-08-22T01:15:30.019Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "97e41dfb-c6a1-4ab5-b61c-5885762e1800",
+        "email": "Alexane_Nicolas@gmail.com",
+        "firstName": "Noemie",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48608548",
+        "tenantId": null
+      },
+      {
+        "reference": "1fa1106c-f6e2-4332-a8eb-7bb2acd8440c",
+        "email": "Iva55@gmail.com",
+        "firstName": "Vernie",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/423.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9ce77793-2aff-42a1-bdb5-49c454d54a69",
+        "email": "Brooks.Beier59@yahoo.com",
+        "firstName": "Isidro",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c32c946f-8ef6-4727-9027-c0376e75985b",
+        "email": "Humberto_Hayes@hotmail.com",
+        "firstName": "Alvis",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71394750",
+        "tenantId": null
+      },
+      {
+        "reference": "af933c1d-8a46-46e6-b107-9b841c4af612",
+        "email": "Mauricio17@yahoo.com",
+        "firstName": "Collin",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/135.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "edf15859-f44a-4bc6-aa36-61618052218a",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": false,
+        "rental_price": 76495,
+        "created_at": "2023-08-21T23:06:14.092Z",
+        "updated_at": "2023-08-21T23:24:03.989Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c638ffc4-810a-4d78-93b1-44f022eb9f62",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening screws",
+        "availability": false,
+        "rental_price": 16392,
+        "created_at": "2023-08-21T09:13:00.117Z",
+        "updated_at": "2023-08-22T00:23:21.598Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3936b7b2-e2a4-496e-9df9-272036ce344c",
+        "name": "Wrench",
+        "description": "Used for gripping and turning objects",
+        "availability": true,
+        "rental_price": 38367,
+        "created_at": "2023-08-21T16:41:31.846Z",
+        "updated_at": "2023-08-21T21:04:25.743Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dbd83d36-30b4-4dba-aaf1-c04e455307c7",
+        "name": "Pliers",
+        "description": "Great for holding and bending wires",
+        "availability": true,
+        "rental_price": 82197,
+        "created_at": "2023-08-22T02:04:14.517Z",
+        "updated_at": "2023-08-21T17:05:07.105Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4010614a-6408-40d9-a11f-7a4e77049d55",
+        "name": "Drill",
+        "description": "Perfect for drilling holes",
+        "availability": false,
+        "rental_price": 45424,
+        "created_at": "2023-08-21T08:44:41.860Z",
+        "updated_at": "2023-08-21T12:07:25.949Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "25ece1e8-109d-4c78-8c27-8dfc89285323",
+        "rental_start_date": "2023-08-22T01:04:57.840Z",
+        "rental_end_date": "2023-08-21T09:02:30.426Z",
+        "created_at": "2023-08-21T15:34:31.464Z",
+        "updated_at": "2023-08-21T11:08:49.551Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "dbd83d36-30b4-4dba-aaf1-c04e455307c7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "078f5f72-5fac-4817-ba1e-7f18701d175f",
+        "rental_start_date": "2023-08-21T11:34:34.081Z",
+        "rental_end_date": "2023-08-21T23:33:28.180Z",
+        "created_at": "2023-08-21T16:34:29.309Z",
+        "updated_at": "2023-08-21T05:27:28.683Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "4010614a-6408-40d9-a11f-7a4e77049d55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb1b96e4-b91e-468c-8202-03c426d155b4",
+        "rental_start_date": "2023-08-22T02:15:26.306Z",
+        "rental_end_date": "2023-08-21T12:02:36.311Z",
+        "created_at": "2023-08-21T21:16:18.066Z",
+        "updated_at": "2023-08-21T10:09:53.817Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "dbd83d36-30b4-4dba-aaf1-c04e455307c7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e28a910c-5f84-4d0c-9186-6908ad552f22",
+        "rental_start_date": "2023-08-22T00:48:53.518Z",
+        "rental_end_date": "2023-08-21T20:03:05.832Z",
+        "created_at": "2023-08-21T10:46:56.942Z",
+        "updated_at": "2023-08-22T03:13:15.648Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "4010614a-6408-40d9-a11f-7a4e77049d55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16c34b5f-bea7-4e68-8304-44d32690d9bc",
+        "rental_start_date": "2023-08-21T14:30:54.835Z",
+        "rental_end_date": "2023-08-21T22:49:45.878Z",
+        "created_at": "2023-08-21T22:08:03.157Z",
+        "updated_at": "2023-08-21T15:19:24.803Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "3936b7b2-e2a4-496e-9df9-272036ce344c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "bca91927-cc94-41eb-a238-680ef42771fd",
+        "rental_start_date": "2023-08-21T11:16:36.294Z",
+        "rental_end_date": "2023-08-22T01:08:19.236Z",
+        "total_price": 40606,
+        "created_at": "2023-08-21T22:38:25.926Z",
+        "updated_at": "2023-08-21T12:35:21.873Z",
+        "customer_id": "fb1b96e4-b91e-468c-8202-03c426d155b4",
+        "tool_id": "4010614a-6408-40d9-a11f-7a4e77049d55"
+      },
+      {
+        "id": "efae3cda-21c1-49df-bf82-93cb9cca2298",
+        "rental_start_date": "2023-08-21T15:00:26.160Z",
+        "rental_end_date": "2023-08-21T08:12:25.382Z",
+        "total_price": 31913,
+        "created_at": "2023-08-22T00:57:02.247Z",
+        "updated_at": "2023-08-21T13:26:08.474Z",
+        "customer_id": "16c34b5f-bea7-4e68-8304-44d32690d9bc",
+        "tool_id": "dbd83d36-30b4-4dba-aaf1-c04e455307c7"
+      },
+      {
+        "id": "aaadae0e-d56e-4d39-949b-39d23f0aa61c",
+        "rental_start_date": "2023-08-21T14:45:43.774Z",
+        "rental_end_date": "2023-08-22T02:43:40.612Z",
+        "total_price": 55948,
+        "created_at": "2023-08-21T22:43:38.042Z",
+        "updated_at": "2023-08-21T23:04:52.674Z",
+        "customer_id": "16c34b5f-bea7-4e68-8304-44d32690d9bc",
+        "tool_id": "4010614a-6408-40d9-a11f-7a4e77049d55"
+      },
+      {
+        "id": "776e3292-79ac-4963-a6ed-6bb62ac3941d",
+        "rental_start_date": "2023-08-21T11:14:20.902Z",
+        "rental_end_date": "2023-08-22T03:18:13.221Z",
+        "total_price": 1620,
+        "created_at": "2023-08-21T11:29:59.760Z",
+        "updated_at": "2023-08-22T03:48:19.334Z",
+        "customer_id": "fb1b96e4-b91e-468c-8202-03c426d155b4",
+        "tool_id": "c638ffc4-810a-4d78-93b1-44f022eb9f62"
+      },
+      {
+        "id": "4fcd5e1e-45e5-43bc-8a41-4d16dc9002b3",
+        "rental_start_date": "2023-08-21T10:35:01.376Z",
+        "rental_end_date": "2023-08-21T13:52:31.555Z",
+        "total_price": 69572,
+        "created_at": "2023-08-22T03:34:04.903Z",
+        "updated_at": "2023-08-21T15:43:01.419Z",
+        "customer_id": "fb1b96e4-b91e-468c-8202-03c426d155b4",
+        "tool_id": "edf15859-f44a-4bc6-aa36-61618052218a"
+      }
+    ],
+    "admin": [
+      {
+        "id": "931d2950-4250-4664-b528-74f8c67737c7",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T14:09:59.597Z",
+        "updated_at": "2023-08-21T12:40:57.104Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a27ea964-7ed5-4c2e-8f0d-6c5212b805f4",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T22:53:22.729Z",
+        "updated_at": "2023-08-21T11:27:50.233Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fd31961-0d1d-4de2-aaef-1992779c34ff",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T08:37:03.971Z",
+        "updated_at": "2023-08-22T04:44:46.278Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be563dfe-bfb0-4062-bd7b-22966e9fb90c",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T19:42:44.909Z",
+        "updated_at": "2023-08-21T08:59:29.557Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4c09ee1-844e-42f3-8438-fa11c58f5a71",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T20:17:52.583Z",
+        "updated_at": "2023-08-22T02:53:22.903Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "717f57e2-01b4-4217-833c-8cb378611c3c",
+        "email": "Bryana_Bode98@hotmail.com",
+        "firstName": "Allison",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/61.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b2b9c75-3928-4d11-a191-5d30acd66930",
+        "email": "Vernie_Feest@yahoo.com",
+        "firstName": "Dax",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1046.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e076e5a-03a1-4f77-bb6b-e9021853979f",
+        "email": "Tianna11@gmail.com",
+        "firstName": "Daryl",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1038.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a71f8c2-e3c2-4d63-96ca-63e1785d2a04",
+        "email": "Quincy16@hotmail.com",
+        "firstName": "Sarina",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/447.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3841ce74-48a3-4230-ade7-5e9ab743719d",
+        "email": "Brendon54@yahoo.com",
+        "firstName": "Tremaine",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49598354",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "f4eab313-e6db-4bc7-a4fc-5b74600c94df",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": true,
+        "rental_price": 70674,
+        "created_at": "2023-08-21T09:34:54.856Z",
+        "updated_at": "2023-08-21T11:30:17.497Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08805c59-c3dd-472b-bfe3-f9e7dbf4934c",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "availability": false,
+        "rental_price": 94405,
+        "created_at": "2023-08-21T22:18:18.382Z",
+        "updated_at": "2023-08-21T15:44:10.071Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "10b3d7a3-f404-4aac-a78f-f7705b5eac19",
+        "name": "Wrench",
+        "description": "Perfect for plumbing repairs",
+        "availability": false,
+        "rental_price": 58774,
+        "created_at": "2023-08-21T08:22:48.871Z",
+        "updated_at": "2023-08-21T12:51:30.705Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c30ff503-bb60-4698-bfb7-495d41f51a9c",
+        "name": "Drill",
+        "description": "Efficient for drilling holes",
+        "availability": false,
+        "rental_price": 37851,
+        "created_at": "2023-08-21T22:29:03.236Z",
+        "updated_at": "2023-08-21T22:02:24.805Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ac43d86c-da2a-42e6-aeb3-8e563ece9f51",
+        "name": "Pliers",
+        "description": "Useful for gripping and bending wires",
+        "availability": true,
+        "rental_price": 93420,
+        "created_at": "2023-08-21T07:44:23.230Z",
+        "updated_at": "2023-08-22T01:28:19.793Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "f3ca4d19-d4b0-4f2c-be58-92b73be41225",
+        "rental_start_date": "2023-08-21T17:16:24.141Z",
+        "rental_end_date": "2023-08-21T18:17:59.118Z",
+        "created_at": "2023-08-21T14:47:24.178Z",
+        "updated_at": "2023-08-21T20:36:35.636Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "08805c59-c3dd-472b-bfe3-f9e7dbf4934c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b0ecb92-db67-4843-b788-a40f04e16cb4",
+        "rental_start_date": "2023-08-22T00:01:30.801Z",
+        "rental_end_date": "2023-08-22T02:43:46.452Z",
+        "created_at": "2023-08-22T02:12:48.259Z",
+        "updated_at": "2023-08-21T17:58:28.012Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "ac43d86c-da2a-42e6-aeb3-8e563ece9f51",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ffbb6a3-82eb-4d3b-9f71-49ccc5f6e415",
+        "rental_start_date": "2023-08-22T03:01:07.905Z",
+        "rental_end_date": "2023-08-21T11:57:36.883Z",
+        "created_at": "2023-08-21T14:52:08.472Z",
+        "updated_at": "2023-08-21T20:37:00.805Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "08805c59-c3dd-472b-bfe3-f9e7dbf4934c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90195d7d-3745-4ed3-a9be-43a508fa25f5",
+        "rental_start_date": "2023-08-21T20:23:31.529Z",
+        "rental_end_date": "2023-08-21T16:00:54.197Z",
+        "created_at": "2023-08-21T19:31:53.231Z",
+        "updated_at": "2023-08-22T02:41:55.043Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "10b3d7a3-f404-4aac-a78f-f7705b5eac19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dffce48-9c7c-4d66-852e-549ab85ca74e",
+        "rental_start_date": "2023-08-21T11:08:51.752Z",
+        "rental_end_date": "2023-08-21T08:17:03.593Z",
+        "created_at": "2023-08-21T13:52:55.841Z",
+        "updated_at": "2023-08-21T05:15:19.115Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "f4eab313-e6db-4bc7-a4fc-5b74600c94df",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "57af0efd-1ba3-4939-9505-6204d619ef8b",
+        "rental_start_date": "2023-08-21T21:49:51.255Z",
+        "rental_end_date": "2023-08-21T14:35:46.087Z",
+        "total_price": 93444,
+        "created_at": "2023-08-21T12:00:46.746Z",
+        "updated_at": "2023-08-21T19:26:15.392Z",
+        "customer_id": "5b0ecb92-db67-4843-b788-a40f04e16cb4",
+        "tool_id": "ac43d86c-da2a-42e6-aeb3-8e563ece9f51"
+      },
+      {
+        "id": "947cc5d8-5c37-4020-b0e1-eed86cdf3090",
+        "rental_start_date": "2023-08-21T13:14:37.533Z",
+        "rental_end_date": "2023-08-21T21:35:19.668Z",
+        "total_price": 65191,
+        "created_at": "2023-08-21T08:39:43.762Z",
+        "updated_at": "2023-08-21T14:42:21.582Z",
+        "customer_id": "f3ca4d19-d4b0-4f2c-be58-92b73be41225",
+        "tool_id": "08805c59-c3dd-472b-bfe3-f9e7dbf4934c"
+      },
+      {
+        "id": "ccf1a8d9-37f4-4236-b1bd-fd02b9f98429",
+        "rental_start_date": "2023-08-21T16:05:18.158Z",
+        "rental_end_date": "2023-08-21T07:36:48.492Z",
+        "total_price": 58001,
+        "created_at": "2023-08-22T01:36:57.245Z",
+        "updated_at": "2023-08-21T22:56:30.047Z",
+        "customer_id": "5b0ecb92-db67-4843-b788-a40f04e16cb4",
+        "tool_id": "c30ff503-bb60-4698-bfb7-495d41f51a9c"
+      },
+      {
+        "id": "83fff2ff-3528-4917-affb-565317d28fcd",
+        "rental_start_date": "2023-08-21T06:35:59.587Z",
+        "rental_end_date": "2023-08-21T19:17:42.041Z",
+        "total_price": 78104,
+        "created_at": "2023-08-21T23:04:03.260Z",
+        "updated_at": "2023-08-21T18:22:00.404Z",
+        "customer_id": "f3ca4d19-d4b0-4f2c-be58-92b73be41225",
+        "tool_id": "ac43d86c-da2a-42e6-aeb3-8e563ece9f51"
+      },
+      {
+        "id": "00c8d607-af07-407b-ba44-8bf4a1c5a0f3",
+        "rental_start_date": "2023-08-21T07:09:02.470Z",
+        "rental_end_date": "2023-08-21T13:53:54.600Z",
+        "total_price": 43425,
+        "created_at": "2023-08-21T05:57:49.742Z",
+        "updated_at": "2023-08-21T17:13:23.224Z",
+        "customer_id": "8dffce48-9c7c-4d66-852e-549ab85ca74e",
+        "tool_id": "f4eab313-e6db-4bc7-a4fc-5b74600c94df"
+      }
+    ],
+    "admin": [
+      {
+        "id": "d3af26ea-9f02-42ec-a833-05b6501f56ca",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T09:34:29.566Z",
+        "updated_at": "2023-08-22T00:47:24.852Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e7e3ff9-bd12-4f99-ae83-b11016a9d78c",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T05:47:46.981Z",
+        "updated_at": "2023-08-21T10:19:58.252Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a98ed9cb-7b17-4e4f-8324-979a93d965a3",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T10:08:43.787Z",
+        "updated_at": "2023-08-22T02:14:55.235Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aa0092c-a059-4609-b89e-fdd07c6dfce5",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T13:02:12.138Z",
+        "updated_at": "2023-08-21T06:52:40.764Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40264a88-37c7-4a64-97cb-b17732bc5e97",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T20:24:14.219Z",
+        "updated_at": "2023-08-22T02:46:37.409Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "08a372d5-2265-4503-a705-1fae2cc1483c",
+        "email": "Irwin_Okuneva@yahoo.com",
+        "firstName": "Marcellus",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/581.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e3956a4-299b-435a-a607-7afdbc49dc62",
+        "email": "Lyla_Considine8@yahoo.com",
+        "firstName": "Layla",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/149.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "112c8621-9e74-43ea-bdc7-4403f9f990fd",
+        "email": "Kaleigh_Labadie74@hotmail.com",
+        "firstName": "Amina",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65002140",
+        "tenantId": null
+      },
+      {
+        "reference": "2ef28f63-6aa8-4fad-95e4-c13b35950b44",
+        "email": "Santa.Casper28@hotmail.com",
+        "firstName": "Sylvan",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73732560",
+        "tenantId": null
+      },
+      {
+        "reference": "0c90b7dc-a689-4df0-8340-cc4a5e7e29ad",
+        "email": "Kiara12@yahoo.com",
+        "firstName": "Nicklaus",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53675530",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "d271316b-6b6d-4928-92dd-e8bfc8243ea3",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": false,
+        "rental_price": 2490,
+        "created_at": "2023-08-22T02:49:17.386Z",
+        "updated_at": "2023-08-22T02:16:23.338Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a06f3671-88b1-4ebc-bc30-4f7cc04ce5fd",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening or loosening screws",
+        "availability": false,
+        "rental_price": 90484,
+        "created_at": "2023-08-21T17:55:35.074Z",
+        "updated_at": "2023-08-21T10:09:19.235Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f2f6f5e0-462e-447a-90d4-a2b2efbe777f",
+        "name": "Wrench",
+        "description": "Ideal for plumbing repairs",
+        "availability": true,
+        "rental_price": 46533,
+        "created_at": "2023-08-21T15:10:22.650Z",
+        "updated_at": "2023-08-21T16:26:55.825Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1e06200d-f2c3-48bb-8dce-51cbd022df23",
+        "name": "Drill",
+        "description": "Powerful tool for drilling holes",
+        "availability": true,
+        "rental_price": 5936,
+        "created_at": "2023-08-22T02:02:35.364Z",
+        "updated_at": "2023-08-22T00:57:50.379Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9476ac05-07d8-4819-9051-0000e9810891",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "availability": false,
+        "rental_price": 71819,
+        "created_at": "2023-08-22T01:16:21.323Z",
+        "updated_at": "2023-08-21T06:07:27.550Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "f2a964e8-fab6-4ee9-8d9a-44699386fc40",
+        "rental_start_date": "2023-08-21T21:07:55.142Z",
+        "rental_end_date": "2023-08-22T03:46:45.098Z",
+        "created_at": "2023-08-21T12:32:27.179Z",
+        "updated_at": "2023-08-21T23:40:43.516Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "1e06200d-f2c3-48bb-8dce-51cbd022df23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f3bd1cc-8c6e-412f-8380-358007eda97e",
+        "rental_start_date": "2023-08-21T09:13:44.340Z",
+        "rental_end_date": "2023-08-21T16:14:33.259Z",
+        "created_at": "2023-08-21T23:20:26.705Z",
+        "updated_at": "2023-08-21T09:25:22.132Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "1e06200d-f2c3-48bb-8dce-51cbd022df23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff8c7336-d872-48ec-ae9d-e8bec65cba03",
+        "rental_start_date": "2023-08-21T07:40:58.052Z",
+        "rental_end_date": "2023-08-22T01:29:19.204Z",
+        "created_at": "2023-08-21T07:11:20.785Z",
+        "updated_at": "2023-08-21T22:34:06.851Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "f2f6f5e0-462e-447a-90d4-a2b2efbe777f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "925dcc0a-dfd3-4a80-b373-d15eea94989f",
+        "rental_start_date": "2023-08-22T00:15:51.577Z",
+        "rental_end_date": "2023-08-21T09:15:22.057Z",
+        "created_at": "2023-08-21T21:41:38.706Z",
+        "updated_at": "2023-08-21T10:18:02.688Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "9476ac05-07d8-4819-9051-0000e9810891",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49624047-539e-40c7-a4ea-e264956aec2e",
+        "rental_start_date": "2023-08-22T00:47:42.353Z",
+        "rental_end_date": "2023-08-21T18:56:47.696Z",
+        "created_at": "2023-08-21T16:32:15.810Z",
+        "updated_at": "2023-08-22T03:32:06.036Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "1e06200d-f2c3-48bb-8dce-51cbd022df23",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "55691c71-5843-4d2c-8908-1b96a9c65ba1",
+        "rental_start_date": "2023-08-21T21:38:56.910Z",
+        "rental_end_date": "2023-08-21T05:12:18.541Z",
+        "total_price": 46872,
+        "created_at": "2023-08-21T19:32:08.861Z",
+        "updated_at": "2023-08-21T17:25:01.622Z",
+        "customer_id": "ff8c7336-d872-48ec-ae9d-e8bec65cba03",
+        "tool_id": "d271316b-6b6d-4928-92dd-e8bfc8243ea3"
+      },
+      {
+        "id": "4db4c72c-332a-419c-a32b-95754ef46c7d",
+        "rental_start_date": "2023-08-21T21:00:08.086Z",
+        "rental_end_date": "2023-08-21T21:21:57.525Z",
+        "total_price": 77501,
+        "created_at": "2023-08-22T03:44:14.675Z",
+        "updated_at": "2023-08-21T23:49:48.237Z",
+        "customer_id": "49624047-539e-40c7-a4ea-e264956aec2e",
+        "tool_id": "f2f6f5e0-462e-447a-90d4-a2b2efbe777f"
+      },
+      {
+        "id": "75496dee-7d97-4da6-8967-e5b04304f965",
+        "rental_start_date": "2023-08-21T12:36:12.265Z",
+        "rental_end_date": "2023-08-21T17:54:00.254Z",
+        "total_price": 72207,
+        "created_at": "2023-08-21T23:15:58.913Z",
+        "updated_at": "2023-08-22T01:20:22.764Z",
+        "customer_id": "49624047-539e-40c7-a4ea-e264956aec2e",
+        "tool_id": "a06f3671-88b1-4ebc-bc30-4f7cc04ce5fd"
+      },
+      {
+        "id": "22fd7dbf-850b-456b-b84d-ff9c1b005f9d",
+        "rental_start_date": "2023-08-21T21:19:10.217Z",
+        "rental_end_date": "2023-08-22T04:55:55.746Z",
+        "total_price": 54772,
+        "created_at": "2023-08-21T07:58:40.383Z",
+        "updated_at": "2023-08-21T23:56:23.748Z",
+        "customer_id": "ff8c7336-d872-48ec-ae9d-e8bec65cba03",
+        "tool_id": "d271316b-6b6d-4928-92dd-e8bfc8243ea3"
+      },
+      {
+        "id": "8cc016de-5c2c-49db-a670-4e949dcccc4f",
+        "rental_start_date": "2023-08-21T23:18:12.834Z",
+        "rental_end_date": "2023-08-21T23:26:10.136Z",
+        "total_price": 18982,
+        "created_at": "2023-08-21T09:28:36.306Z",
+        "updated_at": "2023-08-21T05:18:29.617Z",
+        "customer_id": "925dcc0a-dfd3-4a80-b373-d15eea94989f",
+        "tool_id": "1e06200d-f2c3-48bb-8dce-51cbd022df23"
+      }
+    ],
+    "admin": [
+      {
+        "id": "e8d478b2-6003-43cf-9911-eb9d212c7864",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-22T05:00:49.431Z",
+        "updated_at": "2023-08-22T00:22:42.332Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "429aee4d-0cf6-41c0-af19-92b8d17fe048",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-22T01:40:09.332Z",
+        "updated_at": "2023-08-22T03:44:02.481Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18dc265a-2bfd-43f4-ab98-b7592ac74f8e",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-22T04:22:15.630Z",
+        "updated_at": "2023-08-22T02:23:52.196Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4431b7f0-4554-45b2-8a06-8a30a3eb36fc",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-22T02:11:22.292Z",
+        "updated_at": "2023-08-21T08:17:13.187Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd37f2cf-2e3b-4741-babb-1b8855067e30",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T18:22:19.309Z",
+        "updated_at": "2023-08-21T10:12:11.635Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9a54a4f7-4844-4019-9805-7dbf0f1f0b43",
+        "email": "Rolando_Stehr@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/893.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c187629-c53b-4ef5-a74f-d95bdfc9a286",
+        "email": "Marielle.Okuneva@hotmail.com",
+        "firstName": "Princess",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1065.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "053b406b-9e7a-49c4-b967-d54e277b525d",
+        "email": "Marcia.Schimmel51@hotmail.com",
+        "firstName": "Wilhelmine",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/518.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ffa1882-b673-4646-9a0e-08d34a14cbf3",
+        "email": "Broderick54@hotmail.com",
+        "firstName": "Floy",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79542549",
+        "tenantId": null
+      },
+      {
+        "reference": "06ea030f-dd27-478e-9026-a2743ec21185",
+        "email": "Eulalia86@hotmail.com",
+        "firstName": "Jaden",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/59.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "7230c6c9-0ab4-4646-aef6-7c85b76e5e88",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": true,
+        "rental_price": 13867,
+        "created_at": "2023-08-21T09:22:06.541Z",
+        "updated_at": "2023-08-21T20:56:55.974Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90d32584-a0ae-4a77-99cd-4b356812c78f",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "availability": true,
+        "rental_price": 24778,
+        "created_at": "2023-08-21T16:19:03.607Z",
+        "updated_at": "2023-08-21T20:48:44.358Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b4e08bc5-fefa-461e-8f6c-66fa7dc19fdc",
+        "name": "Wrench",
+        "description": "Perfect for gripping and holding objects",
+        "availability": true,
+        "rental_price": 54615,
+        "created_at": "2023-08-22T02:53:53.478Z",
+        "updated_at": "2023-08-22T04:19:03.050Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b9ab2564-58c3-4229-be13-cee345d746c1",
+        "name": "Pliers",
+        "description": "Used for drilling holes in different materials",
+        "availability": false,
+        "rental_price": 27801,
+        "created_at": "2023-08-21T17:23:07.361Z",
+        "updated_at": "2023-08-21T05:36:29.081Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b2a9ac87-28b6-4e46-84ca-2f4909187325",
+        "name": "Drill",
+        "description": "Essential tool for any toolbox",
+        "availability": true,
+        "rental_price": 62978,
+        "created_at": "2023-08-21T19:00:19.043Z",
+        "updated_at": "2023-08-22T03:55:28.700Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "6d50c5a1-a994-4030-8e4c-d758091607ee",
+        "rental_start_date": "2023-08-21T16:29:08.845Z",
+        "rental_end_date": "2023-08-21T19:05:18.309Z",
+        "created_at": "2023-08-22T04:24:14.748Z",
+        "updated_at": "2023-08-21T23:02:10.743Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "b9ab2564-58c3-4229-be13-cee345d746c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56b5cd94-8a3c-49b3-9ac4-7ecba536b12c",
+        "rental_start_date": "2023-08-21T11:16:09.893Z",
+        "rental_end_date": "2023-08-21T19:40:23.755Z",
+        "created_at": "2023-08-21T14:29:13.070Z",
+        "updated_at": "2023-08-21T14:47:55.984Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "90d32584-a0ae-4a77-99cd-4b356812c78f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ef3e25e-230e-4551-9604-373a3d35aa15",
+        "rental_start_date": "2023-08-21T18:45:41.368Z",
+        "rental_end_date": "2023-08-21T11:48:39.647Z",
+        "created_at": "2023-08-21T23:33:45.948Z",
+        "updated_at": "2023-08-21T07:58:51.183Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "90d32584-a0ae-4a77-99cd-4b356812c78f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66d0d5f3-b96d-4b4e-9649-4eb8c69e5114",
+        "rental_start_date": "2023-08-21T12:51:15.028Z",
+        "rental_end_date": "2023-08-21T06:45:11.026Z",
+        "created_at": "2023-08-21T09:28:55.164Z",
+        "updated_at": "2023-08-21T20:37:40.687Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "b2a9ac87-28b6-4e46-84ca-2f4909187325",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bcf0a35-5c90-42c9-a9c2-b5cea6750e72",
+        "rental_start_date": "2023-08-22T04:28:48.811Z",
+        "rental_end_date": "2023-08-22T05:03:40.378Z",
+        "created_at": "2023-08-21T06:50:05.440Z",
+        "updated_at": "2023-08-21T21:40:50.963Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "90d32584-a0ae-4a77-99cd-4b356812c78f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "221f3dde-8b12-4ac5-a0f7-2ec99a9479f5",
+        "rental_start_date": "2023-08-21T17:53:26.955Z",
+        "rental_end_date": "2023-08-21T18:40:52.890Z",
+        "total_price": 92472,
+        "created_at": "2023-08-21T19:00:21.262Z",
+        "updated_at": "2023-08-22T00:57:27.506Z",
+        "customer_id": "3ef3e25e-230e-4551-9604-373a3d35aa15",
+        "tool_id": "b2a9ac87-28b6-4e46-84ca-2f4909187325"
+      },
+      {
+        "id": "e872b8ce-8d74-4e9e-ae89-068ab04a1b8b",
+        "rental_start_date": "2023-08-21T14:42:28.796Z",
+        "rental_end_date": "2023-08-21T08:07:51.302Z",
+        "total_price": 54840,
+        "created_at": "2023-08-21T23:41:05.507Z",
+        "updated_at": "2023-08-21T09:25:36.272Z",
+        "customer_id": "66d0d5f3-b96d-4b4e-9649-4eb8c69e5114",
+        "tool_id": "b2a9ac87-28b6-4e46-84ca-2f4909187325"
+      },
+      {
+        "id": "7846d8a1-ac0b-4ce1-b3ed-fb8341b6ad0e",
+        "rental_start_date": "2023-08-22T04:05:02.440Z",
+        "rental_end_date": "2023-08-22T02:45:35.283Z",
+        "total_price": 50360,
+        "created_at": "2023-08-21T15:42:29.726Z",
+        "updated_at": "2023-08-22T01:23:30.264Z",
+        "customer_id": "66d0d5f3-b96d-4b4e-9649-4eb8c69e5114",
+        "tool_id": "b9ab2564-58c3-4229-be13-cee345d746c1"
+      },
+      {
+        "id": "d8496b42-a799-47e5-9668-3e986d090402",
+        "rental_start_date": "2023-08-21T09:37:47.497Z",
+        "rental_end_date": "2023-08-21T19:33:10.274Z",
+        "total_price": 40947,
+        "created_at": "2023-08-22T02:37:32.036Z",
+        "updated_at": "2023-08-21T12:08:21.108Z",
+        "customer_id": "66d0d5f3-b96d-4b4e-9649-4eb8c69e5114",
+        "tool_id": "7230c6c9-0ab4-4646-aef6-7c85b76e5e88"
+      },
+      {
+        "id": "f4fd25ca-46a1-46c0-b444-d5fdd67c94ac",
+        "rental_start_date": "2023-08-21T08:08:29.795Z",
+        "rental_end_date": "2023-08-21T20:22:32.410Z",
+        "total_price": 46773,
+        "created_at": "2023-08-21T22:53:43.250Z",
+        "updated_at": "2023-08-21T18:30:00.454Z",
+        "customer_id": "3ef3e25e-230e-4551-9604-373a3d35aa15",
+        "tool_id": "7230c6c9-0ab4-4646-aef6-7c85b76e5e88"
+      }
+    ],
+    "admin": [
+      {
+        "id": "f72f2781-05b9-41b1-a8e6-8f2560a78fe9",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T14:37:51.070Z",
+        "updated_at": "2023-08-22T02:41:53.064Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e8e3c0-9ee8-4c91-a031-abc449bce81a",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T06:50:02.485Z",
+        "updated_at": "2023-08-21T20:50:37.305Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fb68ed7-e518-44f1-97a4-1bdd13b72187",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T11:42:00.894Z",
+        "updated_at": "2023-08-21T17:54:16.978Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7287d24-8dd4-4855-ae22-b15dafa6a925",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T15:43:35.562Z",
+        "updated_at": "2023-08-21T05:54:11.848Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aab0c700-ac0c-4398-a7a4-ee5f4f9a41aa",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T16:34:38.147Z",
+        "updated_at": "2023-08-21T08:05:53.760Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e94457db-7eaf-421a-8dd5-4143202559ec",
+        "email": "Aida_Okuneva88@yahoo.com",
+        "firstName": "Amiya",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/646.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e283cd54-a409-46b6-aadd-7961dea7ebb5",
+        "email": "Hermann_Thompson50@gmail.com",
+        "firstName": "Melvina",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/839.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d465335-6204-4e6d-bdc6-804b04ec93f8",
+        "email": "Alford.Rohan6@hotmail.com",
+        "firstName": "Evans",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47823574",
+        "tenantId": null
+      },
+      {
+        "reference": "d5fecaf1-3d40-4413-b66f-eedebde5b053",
+        "email": "Donnie52@hotmail.com",
+        "firstName": "Anahi",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0fabf7b-a319-4022-ab28-53dee0934355",
+        "email": "Desiree_Cassin51@gmail.com",
+        "firstName": "Lorenzo",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13355694",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "271fc4e3-1740-4f76-9498-02877101a7fc",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": false,
+        "rental_price": 98795,
+        "created_at": "2023-08-21T10:22:46.083Z",
+        "updated_at": "2023-08-21T14:13:01.829Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4ff5c782-e8f5-4d54-9cc5-a17ad080ed60",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening screws",
+        "availability": false,
+        "rental_price": 16101,
+        "created_at": "2023-08-21T07:47:16.536Z",
+        "updated_at": "2023-08-21T18:02:50.994Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "36467309-47fe-49c3-9e6d-42adaac2edfa",
+        "name": "Wrench",
+        "description": "Ideal for plumbing work",
+        "availability": true,
+        "rental_price": 46254,
+        "created_at": "2023-08-21T17:06:09.109Z",
+        "updated_at": "2023-08-21T17:18:15.103Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ce7f75f9-33bf-445b-ba7d-e292f92af6c3",
+        "name": "Drill",
+        "description": "Powerful tool for drilling holes",
+        "availability": true,
+        "rental_price": 37178,
+        "created_at": "2023-08-21T11:35:56.531Z",
+        "updated_at": "2023-08-21T07:52:20.385Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "385f8e40-df06-441b-a31a-4a67e72b832c",
+        "name": "Pliers",
+        "description": "Useful for gripping and bending",
+        "availability": false,
+        "rental_price": 76025,
+        "created_at": "2023-08-21T11:15:51.922Z",
+        "updated_at": "2023-08-21T15:47:59.422Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "ca0e7196-3a67-43a0-aa1d-b881f99aebfd",
+        "rental_start_date": "2023-08-21T19:06:36.283Z",
+        "rental_end_date": "2023-08-21T17:03:06.274Z",
+        "created_at": "2023-08-21T19:33:09.037Z",
+        "updated_at": "2023-08-21T12:14:41.792Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "385f8e40-df06-441b-a31a-4a67e72b832c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a79be8f-bb89-4202-8a43-961c35776ee3",
+        "rental_start_date": "2023-08-22T02:41:11.964Z",
+        "rental_end_date": "2023-08-21T22:57:38.492Z",
+        "created_at": "2023-08-22T00:18:55.989Z",
+        "updated_at": "2023-08-21T15:53:37.868Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "4ff5c782-e8f5-4d54-9cc5-a17ad080ed60",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2534d4a0-e811-4b40-b0a8-985b52a7276f",
+        "rental_start_date": "2023-08-22T04:12:36.399Z",
+        "rental_end_date": "2023-08-21T10:51:34.127Z",
+        "created_at": "2023-08-21T23:50:47.573Z",
+        "updated_at": "2023-08-21T05:14:25.451Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "271fc4e3-1740-4f76-9498-02877101a7fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72f40c32-d88c-4177-a36b-cf7763c43040",
+        "rental_start_date": "2023-08-21T05:16:17.162Z",
+        "rental_end_date": "2023-08-21T17:42:42.448Z",
+        "created_at": "2023-08-21T11:26:02.466Z",
+        "updated_at": "2023-08-21T22:34:20.768Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "36467309-47fe-49c3-9e6d-42adaac2edfa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec9ec3a3-6ec1-4534-bf9f-16b7446fba15",
+        "rental_start_date": "2023-08-21T13:21:36.450Z",
+        "rental_end_date": "2023-08-21T09:07:22.181Z",
+        "created_at": "2023-08-22T00:13:10.823Z",
+        "updated_at": "2023-08-21T10:57:29.968Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "ce7f75f9-33bf-445b-ba7d-e292f92af6c3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8f49bfa6-da24-4f29-8975-0ea5c4a62471",
+        "rental_start_date": "2023-08-22T01:03:26.304Z",
+        "rental_end_date": "2023-08-21T09:41:15.205Z",
+        "total_price": 18479,
+        "created_at": "2023-08-22T02:19:22.336Z",
+        "updated_at": "2023-08-21T08:10:01.110Z",
+        "customer_id": "6a79be8f-bb89-4202-8a43-961c35776ee3",
+        "tool_id": "ce7f75f9-33bf-445b-ba7d-e292f92af6c3"
+      },
+      {
+        "id": "a3daf54b-b473-48da-9fe2-85eb861a1800",
+        "rental_start_date": "2023-08-21T15:40:41.355Z",
+        "rental_end_date": "2023-08-21T16:21:48.404Z",
+        "total_price": 64889,
+        "created_at": "2023-08-21T11:39:23.633Z",
+        "updated_at": "2023-08-21T18:40:24.092Z",
+        "customer_id": "72f40c32-d88c-4177-a36b-cf7763c43040",
+        "tool_id": "4ff5c782-e8f5-4d54-9cc5-a17ad080ed60"
+      },
+      {
+        "id": "cee5ffab-1333-4b94-9328-b601d5963e88",
+        "rental_start_date": "2023-08-22T01:03:42.482Z",
+        "rental_end_date": "2023-08-22T01:50:04.894Z",
+        "total_price": 16534,
+        "created_at": "2023-08-21T12:30:32.475Z",
+        "updated_at": "2023-08-21T06:24:04.110Z",
+        "customer_id": "6a79be8f-bb89-4202-8a43-961c35776ee3",
+        "tool_id": "271fc4e3-1740-4f76-9498-02877101a7fc"
+      },
+      {
+        "id": "4d3b8760-52b9-4584-a547-96d25620559c",
+        "rental_start_date": "2023-08-22T00:52:51.007Z",
+        "rental_end_date": "2023-08-21T08:52:25.508Z",
+        "total_price": 37681,
+        "created_at": "2023-08-21T12:38:27.337Z",
+        "updated_at": "2023-08-21T13:29:40.047Z",
+        "customer_id": "ca0e7196-3a67-43a0-aa1d-b881f99aebfd",
+        "tool_id": "ce7f75f9-33bf-445b-ba7d-e292f92af6c3"
+      },
+      {
+        "id": "9a088ef6-cdce-44b3-9d30-9c1cd446907a",
+        "rental_start_date": "2023-08-21T14:24:06.880Z",
+        "rental_end_date": "2023-08-22T00:03:12.482Z",
+        "total_price": 13794,
+        "created_at": "2023-08-21T21:05:53.274Z",
+        "updated_at": "2023-08-21T12:15:35.617Z",
+        "customer_id": "6a79be8f-bb89-4202-8a43-961c35776ee3",
+        "tool_id": "271fc4e3-1740-4f76-9498-02877101a7fc"
+      }
+    ],
+    "admin": [
+      {
+        "id": "6f4111fb-4015-42aa-a38d-7c715b30c4c0",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-22T00:20:47.198Z",
+        "updated_at": "2023-08-21T21:49:02.809Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0f690e3-7630-4f18-aeeb-ba0902906138",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T08:45:32.391Z",
+        "updated_at": "2023-08-21T14:31:54.729Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9138f786-a5dc-40e0-b5fd-35c62c0042ac",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-22T04:28:41.532Z",
+        "updated_at": "2023-08-22T00:27:05.222Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b81fc6ab-cad2-4486-973f-92712cae77f9",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T05:26:45.490Z",
+        "updated_at": "2023-08-21T20:59:12.847Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab0bbc0c-57b6-4c44-ac6d-5d3821afc3a3",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T23:05:17.558Z",
+        "updated_at": "2023-08-21T05:44:55.558Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "591b37f7-f5bd-4d65-a405-c4e435cfbf6e",
+        "email": "Chelsea49@yahoo.com",
+        "firstName": "Conner",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51670b81-1c35-468f-a021-d4a6eae6de4c",
+        "email": "Marta53@hotmail.com",
+        "firstName": "Isac",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/471.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b311a1a-cbc9-4b1c-af70-bbdec68e780e",
+        "email": "Kristin97@yahoo.com",
+        "firstName": "Morgan",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12658694",
+        "tenantId": null
+      },
+      {
+        "reference": "b4a74526-6e80-410d-b6c6-5e063dbbf0ed",
+        "email": "Clement_Nader@gmail.com",
+        "firstName": "Yvette",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66847706",
+        "tenantId": null
+      },
+      {
+        "reference": "7e4772ba-7184-4d3b-93e2-a46c24942690",
+        "email": "Ladarius_Ruecker@gmail.com",
+        "firstName": "Maggie",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/327.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "aef1d1dc-df29-4a00-bb00-d2433f88500d",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": false,
+        "rental_price": 89067,
+        "created_at": "2023-08-21T13:25:56.303Z",
+        "updated_at": "2023-08-21T11:29:58.499Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "557321b2-f9d6-4392-bf07-472979b81eb1",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "availability": false,
+        "rental_price": 73543,
+        "created_at": "2023-08-22T00:51:58.652Z",
+        "updated_at": "2023-08-21T09:51:50.874Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "28f023ce-409c-44b1-b68b-bf128844f9cd",
+        "name": "Wrench",
+        "description": "Used for gripping and holding objects",
+        "availability": false,
+        "rental_price": 53059,
+        "created_at": "2023-08-21T06:03:37.479Z",
+        "updated_at": "2023-08-22T03:38:55.947Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "59367e99-eecf-482f-9a6f-692c2fec06ec",
+        "name": "Pliers",
+        "description": "Perfect for drilling holes in different materials",
+        "availability": false,
+        "rental_price": 37667,
+        "created_at": "2023-08-21T07:03:15.489Z",
+        "updated_at": "2023-08-21T19:49:08.259Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4760086b-5c1f-4548-84c1-ba4de5ce5eae",
+        "name": "Drill",
+        "description": "Essential tool for any toolbox",
+        "availability": true,
+        "rental_price": 15013,
+        "created_at": "2023-08-22T01:04:14.604Z",
+        "updated_at": "2023-08-21T05:31:20.656Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "9145b96d-bf64-43bf-b026-da093764cd64",
+        "rental_start_date": "2023-08-21T14:11:06.873Z",
+        "rental_end_date": "2023-08-21T11:31:01.503Z",
+        "created_at": "2023-08-22T00:35:41.983Z",
+        "updated_at": "2023-08-21T07:43:43.863Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "557321b2-f9d6-4392-bf07-472979b81eb1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae6d2345-37c2-409d-8c7b-2f14a6771335",
+        "rental_start_date": "2023-08-21T17:30:28.093Z",
+        "rental_end_date": "2023-08-21T05:52:10.365Z",
+        "created_at": "2023-08-22T04:35:01.325Z",
+        "updated_at": "2023-08-22T01:15:45.858Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "28f023ce-409c-44b1-b68b-bf128844f9cd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "225b2887-f4af-4ebc-b1e1-5b0cc79c756b",
+        "rental_start_date": "2023-08-21T06:41:25.330Z",
+        "rental_end_date": "2023-08-21T18:56:30.077Z",
+        "created_at": "2023-08-21T15:52:19.754Z",
+        "updated_at": "2023-08-22T00:56:58.788Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "59367e99-eecf-482f-9a6f-692c2fec06ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1876e50-a90e-43b0-9ac4-fab37cad7311",
+        "rental_start_date": "2023-08-22T01:17:17.401Z",
+        "rental_end_date": "2023-08-21T22:37:52.873Z",
+        "created_at": "2023-08-21T08:47:24.907Z",
+        "updated_at": "2023-08-21T16:14:53.902Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "aef1d1dc-df29-4a00-bb00-d2433f88500d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa816eb2-1eeb-4571-b555-41d11af11e33",
+        "rental_start_date": "2023-08-21T09:31:33.198Z",
+        "rental_end_date": "2023-08-21T22:11:21.033Z",
+        "created_at": "2023-08-21T13:18:37.315Z",
+        "updated_at": "2023-08-22T03:50:40.682Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "28f023ce-409c-44b1-b68b-bf128844f9cd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "f12ebcf3-47e2-49fa-952f-f7daf1f89e28",
+        "rental_start_date": "2023-08-21T15:07:56.156Z",
+        "rental_end_date": "2023-08-22T02:42:16.677Z",
+        "total_price": 72281,
+        "created_at": "2023-08-21T16:04:49.465Z",
+        "updated_at": "2023-08-22T03:00:39.302Z",
+        "customer_id": "225b2887-f4af-4ebc-b1e1-5b0cc79c756b",
+        "tool_id": "557321b2-f9d6-4392-bf07-472979b81eb1"
+      },
+      {
+        "id": "446e511e-dac9-4187-aee9-2ea4044a5b22",
+        "rental_start_date": "2023-08-21T14:27:23.609Z",
+        "rental_end_date": "2023-08-21T08:55:59.226Z",
+        "total_price": 3578,
+        "created_at": "2023-08-21T07:06:05.005Z",
+        "updated_at": "2023-08-22T00:33:53.188Z",
+        "customer_id": "ae6d2345-37c2-409d-8c7b-2f14a6771335",
+        "tool_id": "28f023ce-409c-44b1-b68b-bf128844f9cd"
+      },
+      {
+        "id": "70512267-1f07-490b-bf31-759eade57182",
+        "rental_start_date": "2023-08-22T01:42:57.473Z",
+        "rental_end_date": "2023-08-21T14:09:27.804Z",
+        "total_price": 29058,
+        "created_at": "2023-08-21T07:42:44.105Z",
+        "updated_at": "2023-08-21T09:41:40.953Z",
+        "customer_id": "a1876e50-a90e-43b0-9ac4-fab37cad7311",
+        "tool_id": "aef1d1dc-df29-4a00-bb00-d2433f88500d"
+      },
+      {
+        "id": "ed3d9b15-34bc-487b-b1de-a4cea1617cda",
+        "rental_start_date": "2023-08-21T06:38:57.792Z",
+        "rental_end_date": "2023-08-21T09:33:15.344Z",
+        "total_price": 72397,
+        "created_at": "2023-08-21T17:08:53.558Z",
+        "updated_at": "2023-08-21T20:39:50.554Z",
+        "customer_id": "a1876e50-a90e-43b0-9ac4-fab37cad7311",
+        "tool_id": "aef1d1dc-df29-4a00-bb00-d2433f88500d"
+      },
+      {
+        "id": "738d0ae3-5faf-4440-87c4-100390885f18",
+        "rental_start_date": "2023-08-21T12:32:38.122Z",
+        "rental_end_date": "2023-08-21T17:21:47.255Z",
+        "total_price": 90709,
+        "created_at": "2023-08-22T01:55:32.877Z",
+        "updated_at": "2023-08-21T21:16:54.925Z",
+        "customer_id": "ae6d2345-37c2-409d-8c7b-2f14a6771335",
+        "tool_id": "59367e99-eecf-482f-9a6f-692c2fec06ec"
+      }
+    ],
+    "admin": [
+      {
+        "id": "c1fefc48-287f-4308-aff4-79f774c23d13",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T08:30:44.254Z",
+        "updated_at": "2023-08-21T13:14:01.336Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c4ad7d6-4484-4fca-91bf-10e95abdb377",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T15:46:03.721Z",
+        "updated_at": "2023-08-22T00:29:18.910Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87627e2f-647e-4c64-8a18-80b9a3a92ad0",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T12:59:16.322Z",
+        "updated_at": "2023-08-21T13:46:59.487Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5687609c-4f78-46c7-bd92-b5049604ae05",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T19:54:45.292Z",
+        "updated_at": "2023-08-21T06:04:56.265Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "892847de-d92d-4045-8715-162c17e36a65",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T18:23:34.441Z",
+        "updated_at": "2023-08-22T00:24:52.411Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "892944f7-df18-4d69-b696-18a8e639a18b",
+        "email": "Vaughn.Powlowski58@hotmail.com",
+        "firstName": "Jo",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64386489",
+        "tenantId": null
+      },
+      {
+        "reference": "92913126-d262-4d8b-bed6-73168163588a",
+        "email": "Brendan_Kreiger53@yahoo.com",
+        "firstName": "Vergie",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0db5a870-98a6-4183-a8f3-be4f8d4c3072",
+        "email": "Estell_Mills@gmail.com",
+        "firstName": "Merlin",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12187625",
+        "tenantId": null
+      },
+      {
+        "reference": "29822d22-b49e-42e4-8ad2-abd11b9a1526",
+        "email": "Braulio_Rodriguez@gmail.com",
+        "firstName": "Boyd",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1014.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45571fc3-cc29-4269-9577-e85b1b59d1c4",
+        "email": "Rebekah_Pfeffer@gmail.com",
+        "firstName": "Mattie",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "a6146a59-cfbb-4fbf-98a8-37db021c47ab",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "availability": false,
+        "rental_price": 93855,
+        "created_at": "2023-08-21T18:40:01.811Z",
+        "updated_at": "2023-08-22T02:06:32.648Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8ae0bbfb-24b2-4850-bb5a-2dfc3077c962",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening screws",
+        "availability": false,
+        "rental_price": 56580,
+        "created_at": "2023-08-22T00:08:49.140Z",
+        "updated_at": "2023-08-22T03:26:12.260Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9335f1e0-670c-4eed-9fbb-10f5f7210868",
+        "name": "Wrench",
+        "description": "Ideal for plumbing work",
+        "availability": true,
+        "rental_price": 53792,
+        "created_at": "2023-08-21T21:58:35.523Z",
+        "updated_at": "2023-08-21T14:00:46.111Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d83a1b9a-3364-45e2-b618-91181a61e6c9",
+        "name": "Drill",
+        "description": "Powerful and efficient",
+        "availability": false,
+        "rental_price": 6317,
+        "created_at": "2023-08-21T05:19:31.406Z",
+        "updated_at": "2023-08-21T18:32:47.046Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0b9c016d-4f72-49cc-bad1-949708d7a87d",
+        "name": "Pliers",
+        "description": "Great for gripping and bending",
+        "availability": false,
+        "rental_price": 29340,
+        "created_at": "2023-08-21T23:04:17.478Z",
+        "updated_at": "2023-08-21T09:26:07.317Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "be4152bd-4e75-4cb6-99b8-0ddd7d644ce8",
+        "rental_start_date": "2023-08-21T21:40:40.850Z",
+        "rental_end_date": "2023-08-21T14:16:13.085Z",
+        "created_at": "2023-08-21T19:34:12.209Z",
+        "updated_at": "2023-08-21T18:48:08.528Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "d83a1b9a-3364-45e2-b618-91181a61e6c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ba0d043-fb16-4fde-9608-d4520858101d",
+        "rental_start_date": "2023-08-21T07:38:51.614Z",
+        "rental_end_date": "2023-08-21T12:50:17.520Z",
+        "created_at": "2023-08-21T13:09:32.865Z",
+        "updated_at": "2023-08-21T19:22:59.109Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "8ae0bbfb-24b2-4850-bb5a-2dfc3077c962",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "846141e8-0ace-4f05-86c0-06e40d63505e",
+        "rental_start_date": "2023-08-21T16:54:50.025Z",
+        "rental_end_date": "2023-08-22T04:50:03.149Z",
+        "created_at": "2023-08-22T00:17:04.915Z",
+        "updated_at": "2023-08-21T08:11:05.718Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "8ae0bbfb-24b2-4850-bb5a-2dfc3077c962",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77fb47a5-be97-4a86-9291-e7a38b58df14",
+        "rental_start_date": "2023-08-21T12:25:21.217Z",
+        "rental_end_date": "2023-08-22T00:15:06.359Z",
+        "created_at": "2023-08-21T23:59:01.199Z",
+        "updated_at": "2023-08-21T05:13:06.481Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "0b9c016d-4f72-49cc-bad1-949708d7a87d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b9113f8-8862-4ce0-91f5-f47e4c96f9a2",
+        "rental_start_date": "2023-08-21T11:17:32.601Z",
+        "rental_end_date": "2023-08-21T07:08:42.750Z",
+        "created_at": "2023-08-21T15:25:39.196Z",
+        "updated_at": "2023-08-21T13:41:35.430Z",
+        "company_id": "main_entity_pk",
+        "rented_tool_id": "d83a1b9a-3364-45e2-b618-91181a61e6c9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8ef7151b-7480-4d48-8ec3-ff1d308f3d25",
+        "rental_start_date": "2023-08-21T11:50:27.324Z",
+        "rental_end_date": "2023-08-21T15:42:35.199Z",
+        "total_price": 7145,
+        "created_at": "2023-08-21T09:44:27.046Z",
+        "updated_at": "2023-08-21T19:24:35.300Z",
+        "customer_id": "be4152bd-4e75-4cb6-99b8-0ddd7d644ce8",
+        "tool_id": "8ae0bbfb-24b2-4850-bb5a-2dfc3077c962"
+      },
+      {
+        "id": "2d49c752-e59e-420f-a206-23fa0a61cf24",
+        "rental_start_date": "2023-08-21T20:57:17.141Z",
+        "rental_end_date": "2023-08-21T20:24:43.324Z",
+        "total_price": 77729,
+        "created_at": "2023-08-21T10:16:19.681Z",
+        "updated_at": "2023-08-21T10:17:02.950Z",
+        "customer_id": "846141e8-0ace-4f05-86c0-06e40d63505e",
+        "tool_id": "d83a1b9a-3364-45e2-b618-91181a61e6c9"
+      },
+      {
+        "id": "b5d2de37-5337-4b25-9a14-2d35a2d22ae8",
+        "rental_start_date": "2023-08-21T08:25:27.372Z",
+        "rental_end_date": "2023-08-22T02:41:55.333Z",
+        "total_price": 68003,
+        "created_at": "2023-08-21T21:49:59.929Z",
+        "updated_at": "2023-08-21T05:55:18.872Z",
+        "customer_id": "be4152bd-4e75-4cb6-99b8-0ddd7d644ce8",
+        "tool_id": "8ae0bbfb-24b2-4850-bb5a-2dfc3077c962"
+      },
+      {
+        "id": "2f0ba20b-ee4a-4b40-8743-7a662e5adf81",
+        "rental_start_date": "2023-08-21T18:11:45.053Z",
+        "rental_end_date": "2023-08-21T05:31:36.192Z",
+        "total_price": 67239,
+        "created_at": "2023-08-21T10:48:33.112Z",
+        "updated_at": "2023-08-21T17:09:46.737Z",
+        "customer_id": "3ba0d043-fb16-4fde-9608-d4520858101d",
+        "tool_id": "8ae0bbfb-24b2-4850-bb5a-2dfc3077c962"
+      },
+      {
+        "id": "e027361e-f80c-4649-9111-65f13605617d",
+        "rental_start_date": "2023-08-21T12:25:31.746Z",
+        "rental_end_date": "2023-08-21T12:25:57.445Z",
+        "total_price": 74965,
+        "created_at": "2023-08-21T16:58:53.615Z",
+        "updated_at": "2023-08-21T22:34:17.679Z",
+        "customer_id": "3ba0d043-fb16-4fde-9608-d4520858101d",
+        "tool_id": "0b9c016d-4f72-49cc-bad1-949708d7a87d"
+      }
+    ],
+    "admin": [
+      {
+        "id": "9267a6f5-1fa3-4472-a624-3b30d0d0065c",
+        "can_add_tool": false,
+        "can_edit_tool": true,
+        "can_delete_tool": true,
+        "can_view_rentals": true,
+        "created_at": "2023-08-22T01:00:58.229Z",
+        "updated_at": "2023-08-22T03:20:34.554Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d469b0b-ddc5-4977-a126-ec376b60de80",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T12:20:04.949Z",
+        "updated_at": "2023-08-21T21:54:27.022Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66349e75-6ed3-4d63-b130-177433d3766a",
+        "can_add_tool": true,
+        "can_edit_tool": true,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T23:36:35.440Z",
+        "updated_at": "2023-08-22T01:19:29.865Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c5500e5-61da-4176-a297-7b4600692fa5",
+        "can_add_tool": false,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": false,
+        "created_at": "2023-08-21T16:24:26.763Z",
+        "updated_at": "2023-08-22T01:44:42.928Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5fc7316-30c2-42f8-aee3-3e32c278756a",
+        "can_add_tool": true,
+        "can_edit_tool": false,
+        "can_delete_tool": false,
+        "can_view_rentals": true,
+        "created_at": "2023-08-21T14:40:37.994Z",
+        "updated_at": "2023-08-21T23:12:46.718Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d9bf5922-08ad-434c-8f43-7b391426981a",
+        "email": "Dean_Jerde@hotmail.com",
+        "firstName": "Kiley",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1099.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b5624d89-30a2-4d39-a368-4212759d6e32",
+        "email": "Milton.Schuster53@hotmail.com",
+        "firstName": "Robb",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7f954209-f98f-4696-9972-bc3b11966908",
+        "email": "Eldon_Lockman@gmail.com",
+        "firstName": "Cheyanne",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52016908",
+        "tenantId": null
+      },
+      {
+        "reference": "55c6ed72-3446-4e8b-965f-28a796e4e60e",
+        "email": "Evelyn_Fritsch@hotmail.com",
+        "firstName": "Silas",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47131758",
+        "tenantId": null
+      },
+      {
+        "reference": "fb12c12d-5b63-40d6-a687-934cf32c977c",
+        "email": "Wilson.Miller14@yahoo.com",
+        "firstName": "Myron",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25624825",
+        "tenantId": null
+      }
+    ]
+  }
+]

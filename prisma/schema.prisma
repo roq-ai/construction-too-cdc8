@@ -1,0 +1,96 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model admin {
+  id               String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id          String   @db.Uuid
+  company_id       String   @db.Uuid
+  can_add_tool     Boolean?
+  can_edit_tool    Boolean?
+  can_delete_tool  Boolean?
+  can_view_rentals Boolean?
+  created_at       DateTime @default(now()) @db.Timestamp(6)
+  updated_at       DateTime @default(now()) @db.Timestamp(6)
+  company          company  @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user             user     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model company {
+  id            String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description   String?    @db.VarChar(255)
+  location      String?    @db.VarChar(255)
+  opening_hours String?    @db.VarChar(255)
+  name          String     @db.VarChar(255)
+  created_at    DateTime   @default(now()) @db.Timestamp(6)
+  updated_at    DateTime   @default(now()) @db.Timestamp(6)
+  user_id       String     @db.Uuid
+  tenant_id     String     @db.VarChar(255)
+  admin         admin[]
+  user          user       @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  customer      customer[]
+  tool          tool[]
+}
+
+model customer {
+  id                String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id           String    @db.Uuid
+  company_id        String    @db.Uuid
+  rented_tool_id    String    @db.Uuid
+  rental_start_date DateTime? @db.Date
+  rental_end_date   DateTime? @db.Date
+  created_at        DateTime  @default(now()) @db.Timestamp(6)
+  updated_at        DateTime  @default(now()) @db.Timestamp(6)
+  company           company   @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  tool              tool      @relation(fields: [rented_tool_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user              user      @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  rental            rental[]
+}
+
+model rental {
+  id                String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  customer_id       String    @db.Uuid
+  tool_id           String    @db.Uuid
+  rental_start_date DateTime? @db.Date
+  rental_end_date   DateTime? @db.Date
+  total_price       Int?
+  created_at        DateTime  @default(now()) @db.Timestamp(6)
+  updated_at        DateTime  @default(now()) @db.Timestamp(6)
+  customer          customer  @relation(fields: [customer_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  tool              tool      @relation(fields: [tool_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model tool {
+  id           String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name         String     @db.VarChar(255)
+  description  String?    @db.VarChar(255)
+  availability Boolean?
+  rental_price Int?
+  company_id   String     @db.Uuid
+  created_at   DateTime   @default(now()) @db.Timestamp(6)
+  updated_at   DateTime   @default(now()) @db.Timestamp(6)
+  customer     customer[]
+  rental       rental[]
+  company      company    @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email       String     @unique @db.VarChar(255)
+  firstName   String?    @db.VarChar(255)
+  lastName    String?    @db.VarChar(255)
+  roq_user_id String     @db.VarChar(255)
+  tenant_id   String     @db.VarChar(255)
+  created_at  DateTime   @default(now()) @db.Timestamp(6)
+  updated_at  DateTime   @default(now()) @db.Timestamp(6)
+  admin       admin[]
+  company     company[]
+  customer    customer[]
+}
